@@ -59,6 +59,7 @@ div.navigation
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+        width:100%;
 }
 
 .login
@@ -87,6 +88,7 @@ div.navigation
     .signup{
     	width:100%;
     }
+   .bgh{ width:100%;}
 }
 .thumbnail
 {
