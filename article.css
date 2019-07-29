@@ -53,14 +53,6 @@ div.navigation
 	 font-family: "Comic Sans MS", cursive, sans-serif;
 
 }
-.bgh
-{
-	background-image:url(bgg.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-        width:100%;
-}
 
 .login
 {
@@ -88,7 +80,7 @@ div.navigation
     .signup{
     	width:100%;
     }
-   .bgh{ width:100%;}
+   
 }
 .thumbnail
 {
