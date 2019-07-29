@@ -1,0 +1,156 @@
+div.container
+{
+	padding-left:10px;
+	padding-right:10px;
+}
+.head
+{
+	margin-left: 3px;
+	font-size: 20px;
+	font-family: "Allerta Stencil", Sans-serif;
+}
+.head2
+{
+	padding:2px;
+	background-color: black;
+	color:white;
+	margin-left: 3px;
+	font-size: 40px;
+	border-radius: 12px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	font-family: "Allerta Stencil", Sans-serif;
+}
+.navbar-expand-sm
+{
+	background-color:black;
+	margin-left: 20px;
+	margin-right:20px;
+
+}
+.navbar-expand-sm .navbar-nav .nav-link
+{
+	color:white;
+	 font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.img-responsive
+{
+	border-radius: 30%;
+}
+div.navigation
+{
+	padding: 10px;
+}
+.signup
+{
+	background-color: black;
+	color: white;
+	float: right;
+	border:2px solid;
+	border-radius: 12px;
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+	padding: 15px 20px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	 font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+.login
+{
+	background-color: black;
+	color: white;
+	float: right;
+	border:2px solid;
+	border-radius: 12px;
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+	padding: 15px 20px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	 font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.page-footer
+{
+	background-color: black;
+	color:white;
+}
+
+.b
+{
+	background-image:url(bgg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.loginf {
+width: 500px;
+text-align: center;
+margin-left: 40px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 33%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.submitbtn{
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 33%;
+  border-radius: 10%;
+}
+
+/* Add a hover effect for buttons */
+.submitbtn:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+	color:white; 
+  background-color: black;
+  border:none;
+  border-radius: 10%;
+  text-align: center;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 10px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 800px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 75%;}
+    .loginf{
+    	width:75%;
+    }
+    .login{
+    	width:100%;
+    }
+    .signup{
+    	width:100%;
+    }
+}

@@ -1,0 +1,127 @@
+div.container1
+{
+	padding-left:30px;
+	padding-right:30px;
+}
+.container2
+{
+	background-image:url(bgg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.head
+{
+	margin-left: 3px;
+	font-size: 20px;
+	font-family: "Allerta Stencil", Sans-serif;
+}
+
+.head2
+{
+	padding:2px;
+	background-color: black;
+	color:white;
+	margin-left: 3px;
+	font-size: 40px;
+	border-radius: 12px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	font-family: "Allerta Stencil", Sans-serif;
+}
+.navbar-expand-sm
+{
+	background-color:black;
+	margin-left: 20px;
+	margin-right:20px;
+
+}
+.navbar-expand-sm .navbar-nav .nav-link
+{
+	color:white;
+	 font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+div.navigation
+{
+	padding: 10px;
+}
+.signup
+{
+	background-color: black;
+	color: white;
+	float: right;
+	border:2px solid;
+	border-radius: 12px;
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+	padding: 15px 20px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	 font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+.login
+{
+	background-color: black;
+	color: white;
+	float: right;
+	border:2px solid;
+	border-radius: 12px;
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+	padding: 15px 20px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	 font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.carousel-inner
+{
+    width: 100%;
+    height: 100%;
+    text-align:center;
+     font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+.carousel-inner img {
+      width: 100%; 
+      margin: auto;
+      min-height:200px;
+  }
+.page-footer
+{
+	background-color: black;
+	color:white;
+}
+hr.type_4 
+{
+	border: 0;
+	height: 3px;
+	background: #333;
+	background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+	background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+	background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+	background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+.quote
+{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+
+@media screen and (max-width: 800px) {
+  #demo {
+    width: 100%;}
+    .login{
+    	width:100%;
+    }
+    .signup{
+    	width:100%;
+    }
+}
+.col-sm-4:hover
+{
+	opacity: 0.7;
+}

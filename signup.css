@@ -1,0 +1,110 @@
+div.container
+{
+	padding-left:10px;
+	padding-right:10px;
+}
+.head
+{
+	margin-left: 3px;
+	font-size: 20px;
+	font-family: "Allerta Stencil", Sans-serif;
+}
+.head2
+{
+	padding:2px;
+	background-color: black;
+	color:white;
+	margin-left: 3px;
+	font-size: 40px;
+	border-radius: 12px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	font-family: "Allerta Stencil", Sans-serif;
+}
+.navbar-expand-sm
+{
+	background-color:black;
+	margin-left: 20px;
+	margin-right:20px;
+
+}
+.navbar-expand-sm .navbar-nav .nav-link
+{
+	color:white;
+	 font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.img-responsive
+{
+	border-radius: 30%;
+}
+div.navigation
+{
+	padding: 10px;
+}
+.signup
+{
+	background-color: black;
+	color: white;
+	float: right;
+	border:2px solid;
+	border-radius: 12px;
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+	padding: 15px 20px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	 font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+.login
+{
+	background-color: black;
+	color: white;
+	float: right;
+	border:2px solid;
+	border-radius: 12px;
+	font-size: 14px;
+	text-align: center;
+	display: inline-block;
+	padding: 15px 20px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	 font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.lni{
+    font-size: 64px;
+}
+.bg
+{
+	background-image:url(bgg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.regform{
+    box-shadow: 0px 8px 9px 0px rgba(69, 69, 69, 0.25);
+}
+
+.sign{
+    color: black;
+}
+
+
+
+
+
+
+
+.page-footer
+{
+	background-color: black;
+	color:white;
+}
+@media screen and (max-width: 800px) {
+    .login{
+    	width:100%;
+    }
+    .signup{
+    	width:100%;
+    }
+}
